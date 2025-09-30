@@ -4,11 +4,140 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hozir.uz</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+      }
+  
+      header {
+        background-color:#e4002b;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+  
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+      }
+  
+      nav {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-weight: bold;
+      }
+  
+      nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        transition: color 0.3s ease;
+      }
+  
+      nav a:hover {
+        color:rgb(255, 255, 255);
+      }
+  
+      .header-right {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+  
+      .search-box input {
+        padding: 6px 12px;
+        border: 1px solid #777;
+        border-radius: 20px;
+        font-size: 14px;
+      }
+  
+      .lang-select {
+        padding: 5px;
+        font-size: 14px;
+      }
+  
+      .date {
+        font-size: 14px;
+        color: #c1c1c1;
+      }
+  
+      /* Responsive menyu uchun checkbox trikki */
+      .menu-toggle {
+        display: none;
+      }
+  
+      .menu-icon {
+        display: none;
+        font-size: 28px;
+        cursor: pointer;
+      }
+  
+      @media (max-width: 768px) {
+        nav {
+          display: none;
+          flex-direction: column;
+          width: 100%;
+          margin-top: 10px;
+        }
+  
+        .menu-toggle:checked + label + nav {
+          display: flex;
+        }
+  
+        .menu-icon {
+          display: block;
+          color:rgb(255, 255, 255);
+       ;
+         
+        }
+  
+        .header-right {
+          width: 100%;
+          justify-content: space-between;
+          margin-top: 10px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+  
+    <header >
+      
+      <div class="logo">Hozir.uz</div>
+  
+      <!-- Mobil menyu uchun checkbox trikki -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">☰</label>
+  
+      <nav>
+        <a href="#">Yangiliklar</a>
+        <a href="#">Siyosat</a>
+        <a href="#">Sport</a>
+        <a href="#">Texnologiya</a>
+        <a href="#">Madaniyat</a>
+      </nav>
+  
+      <div class="header-right">
+        <div class="search-box">
+          <input type="text" placeholder="Qidiruv...">
+        </div>
+      
+        <div class="date">30.09.2025</div>
+      </div>
+    </header>
+  
   </body>
-</html>
+  </html>
+

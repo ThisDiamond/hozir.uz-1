@@ -97,6 +97,45 @@ a{
     transition: all 0.15s;
     font-weight:800;
 }
+/* asosiy */
+.bosh{
+    border-radius: 10px;
+}
+.bosh:hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom: 3.5px solid rgb(255, 255, 255);
+    box-shadow: 2px  3px rgb(255, 255, 255);
+    transition: all 0.15s;
+    font-weight:800;
+}
+/* main */
+h2{
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px;
+    color: #ffff;
+    background-color: #656262;
+
+}
+main{
+    
+}
+.axborot{
+    background-color:#656262 ;
+    background-position: 100%;
+    /* filter: brightness(10%); */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.rasm{
+    border-radius: 5px;
+    border: 4px solid black;
+}
 
 
 

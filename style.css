@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-image: url(./osmon\ opar\ bino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    height: 65px;
+    background-color: rgb(114, 111, 111);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+li{
+    display: flex;
+    gap: 25px;
+    justify-content:center;
+    margin-right: 20px;
+}
+ul  {
+   text-decoration: none;
+   margin-top: 1.1%;
+   font-size: 25px;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    
+}
+/* talim */
+.talim{
+    border-radius: 10px;
+}
+.talim:hover{
+    border: 2px solid rgb(47, 47, 190);
+    border-bottom: 3.5px solid rgb(47, 47, 190);
+    box-shadow: 2px 3px rgb(47, 47, 190);
+    transition: all 0.15s;
+    font-weight:800;
+}
+/* huquq */
+.huquq{
+    border-radius: 10px;
+}
+.huquq:hover{
+    border: 2px solid rgb(6, 86, 6);
+    border-bottom: 3.5px solid rgb(6, 86, 6);
+    box-shadow: 2px 3px rgb(6, 86, 6);
+    transition: all 0.15s;
+    font-weight:800;
+}
+/* pul */
+.pul{
+    border-radius: 10px;
+}
+.pul:hover{
+    border: 2px solid rgb(37, 171, 23);
+    border-bottom: 3.5px solid rgb(37, 171, 23);
+    box-shadow: 2px  5px rgb(37, 171, 23);
+    transition: all 0.15s;
+    font-weight:800;
+}
+/* sport */
+.sport{
+    border-radius: 10px;
+}
+.sport:hover{
+    border: 2px solid rgb(139, 4, 4);
+    border-bottom: 3.5px solid rgb(139, 4, 4);
+    box-shadow: 2px  3px rgb(139, 4, 4);
+    transition: all 0.15s;
+    font-weight:800;
+}
+/* dunyo */
+.Dunyo{
+    border-radius: 10px;
+}
+.Dunyo:hover{
+    border: 2px solid rgb(20, 108, 159);
+    border-bottom: 3.5px solid rgb(20,108,159);
+    box-shadow: 2px  3px rgb(20,108,159);
+    transition: all 0.15s;
+    font-weight:800;
+}
+/* avto */
+.Avto{
+    border-radius: 10px;
+}
+.Avto:hover{
+    border: 2px solid rgb(101, 97, 97);
+    border-bottom: 3.5px solid rgb(101,97,97);
+    box-shadow: 2px  3px rgb(101, 97, 97);
+    transition: all 0.15s;
+    font-weight:800;
+}
+
+
+

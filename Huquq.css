@@ -125,7 +125,6 @@ a{
 }
 .container{
     width: 1000px;
-  
     position: relative;
     background-color: #979292;
     flex-direction: column;

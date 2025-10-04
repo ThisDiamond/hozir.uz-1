@@ -159,3 +159,20 @@ hr{
     margin-top: 20px;
     border-bottom:4px solid #000000;
 }
+/* logo */
+.hozir_uz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.hozir{
+    color: rgb(45, 45, 184);
+    font-weight: 600;
+    font-size: 60px;
+}
+.uz{
+    color: black;
+    font-weight: 400;
+    font-size: 60px;
+}

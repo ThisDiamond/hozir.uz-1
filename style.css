@@ -9,8 +9,29 @@ body{
     background-color: #ffff;
 
 }
-nav{
-    /* height: 1000px; */
+/* logo */
+.hozir_uz{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.hozir{
+    color: rgb(45, 45, 184);
+    font-weight: 600;
+    font-size: 60px;
+}
+.uz{
+    color: black;
+    font-weight: 400;
+    font-size: 60px;
+}
+/* navbar */
+nav{ 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     height: 65px;
     background-color: rgb(114, 111, 111);
 
@@ -122,8 +143,6 @@ main{
 .OnIkkiYillik{
     color: black;
     width: 1000px;
-    font-weight: 400;
-
 }
 .axborot{
     margin-top: -76.5px;

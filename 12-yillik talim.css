@@ -122,10 +122,9 @@ h2{
 main{
 }
 .axborot{
-    margin-top: 16px;
-    width: 800px;
+    width: 1000px;
     position: relative;
-    background-color: #656262;
+    background-color: #979292;
     flex-direction: column;
     background-position: 100%;
     display: flex;
@@ -133,10 +132,11 @@ main{
     justify-content: center;
     padding: 20px;
     gap: 20px;
-    left: 22.1%;
+    left: 15%;
 
 }
 .rasm{
+    margin-top: 20px;
     height: 400px;
     border-radius: 5px;
     border: 4px solid rgb(0, 0, 0);

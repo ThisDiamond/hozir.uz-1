@@ -173,5 +173,13 @@ main{
     font-weight: 100;
     font-size: 15px;
 }
-
+/* footer */
+.foot-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:30px;
+    margin-left: 210px;
+}
 

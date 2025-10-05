@@ -4,15 +4,23 @@
     font-family: "Inter", sans-serif;
 }
 body{
-    /* background-image: url(./osmon\ opar\ bino.jpg); */
+    
     background-color: #ffff;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+   
 }
+/* navbar */
 nav{
+    display: flex;
+    justify-content: center;
+}
+.darajali{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     height: 65px;
+    width: 1040px;
+    margin-right: 1.5%;
     background-color: rgb(114, 111, 111);
-    border-radius: 5px;
 }
 li{
     display: flex;
@@ -155,14 +163,11 @@ a{
     gap: 20px;
     font-weight: 500;
 }
-hr{
-    margin-top: 20px;
-    border-bottom:4px solid #000000;
-}
 /* logo */
 .hozir_uz{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 
 }
